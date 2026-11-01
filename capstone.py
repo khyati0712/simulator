@@ -146,8 +146,6 @@ This condition is known as the maximum power transfer condition for a DC resisti
 -Signal transmission: Reducing signal reflections through impedance matching.
 
     """)
-    st.image("images/cap1.jpeg", caption="Thevenin Equivalent Circuit", width=600)
-    st.image("images/cap2.jpeg", caption="Maximum Power Transfer Theorem", width=600)
 
 elif page == "Procedure":
     st.title("Procedure")
@@ -167,7 +165,7 @@ elif page == "Procedure":
 
 6. Reconnect the load resistance to the equivalent circuit.
 
-## Procedure to determine maximum power transfer
+## Procedure to prove the Maximum Power Transfer Theorem
 1. Determine the Thevenin voltage ($V_{Th}$) and Thevenin resistance ($R_{Th}$) of the equivalent circuit.
 2. Set the load resistance equal to the Thevenin resistance:
 $R_L$ = $R_{Th}$
@@ -187,7 +185,6 @@ $V_L$=$I_L$($R_L$)
 7. Verify the result by varying ($R_L$) and observing that maximum power occurs when $R_L$=$R_{Th}$.
 
 """)
-    st.image("images/cap1.jpeg", caption="Thevenin Equivalent Circuit", width=600)
 
 elif page == "Virtual Lab":
 
@@ -327,7 +324,7 @@ elif page == "Virtual Lab":
 
 elif page == "Graph Analysis":
 
-    st.title("Experimental Analysis")
+    st.title("Graph for Maximum Power Transfer Theorem")
 
     st.write(
         "Analyse the relationship between load resistance and load power to verify the Maximum Power Transfer Theorem."
